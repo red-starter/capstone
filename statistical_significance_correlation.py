@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-tweet_sentiment_df = pd.read_csv('all_days.csv')
-mean_finance_df = pd.read_csv('mean_finance.csv')
+tweet_sentiment_df = pd.read_csv('./files/all_days.csv')
+mean_finance_df = pd.read_csv('./files/mean_finance.csv')
 
 mean_finance_df = mean_finance_df.set_index('Date').rename(columns ={'mean':'agg_stock_percent_change'})
 tweet_sentiment_df = tweet_sentiment_df.T

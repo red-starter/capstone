@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-tweet_sentiment_df = pd.read_csv('all_days.csv')
+tweet_sentiment_df = pd.read_csv('./files/all_days.csv')
 
 
 tweet_cols = tweet_sentiment_df.columns
@@ -51,5 +51,5 @@ ax.legend(prop={'size': 100})
 
 
 to_write = data[['mean','positive']]
-to_write.to_csv('mean_finance.csv')
+to_write.to_csv('./files/mean_finance.csv')
 

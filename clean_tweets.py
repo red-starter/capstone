@@ -8,7 +8,7 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
-df = pd.read_json('parsed_tweets.json')
+df = pd.read_json('./files/parsed_tweets.json')
 
 # Removing Punctuation
 df = df.str.replace('[^\w\s]','')
@@ -36,7 +36,7 @@ for col in df.columns:
     df[col] = df[col].apply(lambda x: str(TextBlob(x).correct()))
 
 # outputs
-df.to_csv("cleaned_tweets.csv", index=False)
+df.to_csv("./files/cleaned_tweets.csv", index=False)
 
 
 

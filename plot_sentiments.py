@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
 import matplotlib.pyplot as plt
 from matplotlib.dates import date2num
 import datetime
@@ -10,7 +9,7 @@ import numpy as np
 
 
 
-df = pd.read_json('sentiments_day_tweets.json')
+df = pd.read_json('./files/sentiments_day_tweets.json')
 
 N = len(df.columns)
 ind = np.arange(N)  # the x locations for the groups
