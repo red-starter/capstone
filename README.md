@@ -1,17 +1,25 @@
 # Sentiment analysis of tweets and the correlation to stock market performance
 
-First Null hypothesis - the # of positive tweets on a given day is positively correlated to stock market performance
-First Alternative Hypothesis - the # of positive tweets on a given day is not correlated to stock market performance
+First Null hypothesis 
+- the # of positive tweets on a given day is positively correlated to stock market performance
+First Alternative Hypothesis 
+- the # of positive tweets on a given day is not correlated to stock market performance
 
-Second Null hypothesis - the # of negative tweets on any given day is negatively correlated to stock market performance
-Second Alternative Hypothesis - the # of negative tweets on a given day is not correlated to stock market performance
+Second Null hypothesis 
+- the # of negative tweets on any given day is negatively correlated to stock market performance
+Second Alternative Hypothesis 
+- the # of negative tweets on a given day is not correlated to stock market performance
 
-## step 1 collect , clean and analyze twitter data
+## Collection and cleaning and analysis of tweets
 
 I used tweepy (library to standarizes twitter api) to collect twitter data for a specific time range.
 I took several steps to clean the data. I removed stop words, using stop words from the nltk library corpus. I also removed punctuation and the 20 most common and 20 least common words. I used the Textblob library to autocorrect tweets. 
 
 I used the Textblob library to analyse the sentiment, I partitioned the tweets based on the score into positive, neutral and negative tweets. 
+
+The textblob library has a training set with preclassified movie reviews, and it uses a NaiveBayes classifier to classify the new text's polarity from +1 (positive) to -1 (negative). 
+source code is : https://github.com/sloria/TextBlob/blob/90cc87ab0f9e25f37379079840ec43aba59af440/textblob/en/sentiments.py
+
 
 ### twitter sentiment per day results
 
