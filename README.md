@@ -15,7 +15,12 @@ Alternative Hypothesis 2
 ## Collection and cleaning and analysis of tweets
 
 I used tweepy (library to standarizes twitter api) to collect twitter data for a specific time range.
-I took several steps to clean the data. I removed stop words, using stop words from the nltk library corpus. I also removed punctuation and the 20 most common and 20 least common words. I used the Textblob library to autocorrect tweets. 
+I took several steps to clean the data. 
+
+- I removed stop words, using stop words from the nltk library corpus
+- I also removed punctuation 
+- removed the 20 most common and 20 least common words
+- I used the Textblob library to autocorrect tweets 
 
 I used the Textblob library to analyse the sentiment, I partitioned the tweets based on the score into positive, neutral and negative tweets. 
 
