@@ -1,5 +1,10 @@
 # Sentiment analysis of tweets and the correlation to stock market performance
 
+First Null hypothesis - the # of positive tweets on a given day is positively correlated to stock market performance
+First Alternative Hypothesis - the # of positive tweets on a given day is not correlated to stock market performance
+
+Second Null hypothesis - the # of negative tweets on any given day is negatively correlated to stock market performance
+Second Alternative Hypothesis - the # of negative tweets on a given day is not correlated to stock market performance
 
 ## step 1 collect , clean and analyze twitter data
 
@@ -32,6 +37,6 @@ I normalized the positive and negative tweets as a percentage , here is the fina
 # results analysis
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/alllinestogether.png)
 
-The spearman correlation between the mean stock market performance and the percentange of positive tweets which was 0.2972073812865935. I the correlation between the mean stock market performance and the percentange of negative tweets was
--0.2917632840717102. 
+The spearman correlation between the mean stock market performance and the percentange of positive tweets which was 0.2972. I the correlation between the mean stock market performance and the percentange of negative tweets was
+-0.2917. 
 I used a statistical significance alpha = 0.05 my p values were 0.0522 and 0.0556 respectively, so I was unable to reject my null hypothesis in either case.
