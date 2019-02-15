@@ -1,13 +1,15 @@
 # Sentiment analysis of tweets and the correlation to stock market performance
 
-First Null hypothesis 
+Null hypothesis 1
 - the # of positive tweets on a given day is positively correlated to stock market performance
-First Alternative Hypothesis 
+
+Alternative Hypothesis 1
 - the # of positive tweets on a given day is not correlated to stock market performance
 
-Second Null hypothesis 
+Null hypothesis 2
 - the # of negative tweets on any given day is negatively correlated to stock market performance
-Second Alternative Hypothesis 
+
+Alternative Hypothesis 2
 - the # of negative tweets on a given day is not correlated to stock market performance
 
 ## Collection and cleaning and analysis of tweets
