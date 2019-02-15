@@ -64,6 +64,6 @@ I used a statistical significance alpha = 0.05
 
 Deriving the T values from the spearman correlation were `-1.64` and `1.67` 
 
-The derived p values were `0.0522` and `0.0556` respectively.
+The derived p values were `0.104` and `0.112` respectively.
 
 ### Since p > 0.05 in both cases,  I was unable to reject my null hypothesis in either case.
