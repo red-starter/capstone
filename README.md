@@ -23,7 +23,9 @@ Initially I planned on using tweepy (library to standarizes twitter api) to coll
 
 I used the Textblob library to analyse the sentiment, I partitioned the tweets based on the score into positive, neutral and negative tweets. 
 
-The textblob library has a training set with preclassified movie reviews, and it uses a NaiveBayes classifier to classify the new text's polarity from +1 (positive) to -1 (negative). 
+The textblob library has a training set with preclassified movie reviews, and it uses a NaiveBayes classifier to classify the new text's polarity from +1 (positive) to -1 (negative)
+
+
 source code is : https://github.com/sloria/TextBlob/blob/90cc87ab0f9e25f37379079840ec43aba59af440/textblob/en/sentiments.py
 
 
