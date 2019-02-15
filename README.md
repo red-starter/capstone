@@ -51,7 +51,7 @@ I normalized the positive and negative tweets as a percentage , here is the fina
 
 The spearman correlation was calculared between the mean stock market performance and the percentange of positive tweets and the negative tweets.  
 
-The result were `0.2972` and `-0.2917` respectively. 
+### The results were `0.2972` and `-0.2917` respectively. 
 
 I used a statistical significance alpha = 0.05
 
@@ -59,4 +59,4 @@ Deriving the T values from the spearman correlation were `-1.64` and `1.67`
 
 The derived p values were `0.0522` and `0.0556` respectively.
 
-Since p > 0.05 in both cases,  I was unable to reject my null hypothesis in either case.
+### Since p > 0.05 in both cases,  I was unable to reject my null hypothesis in either case.
