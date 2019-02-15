@@ -10,8 +10,8 @@
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/better_chart.png)
 
 # initial chart data
-![alt text]((https://github.com/red-starter/capstone/blob/master/graphs/each_index_change.png)
-# aggregated cahrt data
+![alt text](https://github.com/red-starter/capstone/blob/master/graphs/each_index_change.png)
+# aggregated chart data
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/percent_change.png)
 # results analysis
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/alllinestogether.png)
