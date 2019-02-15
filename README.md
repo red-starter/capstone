@@ -15,7 +15,7 @@ Alternative Hypothesis 2
 ## Collection and cleaning and analysis of tweets
 
 I used tweepy (library to standarizes twitter api) to collect twitter data for a specific time range.
-I took several steps to clean the data. 
+I took several steps to clean the data. I collected about ~ 500000 tweets , and used a random sample 5000 tweets for each day.
 
 - I removed stop words, using stop words from the nltk library corpus
 - I also removed punctuation 
