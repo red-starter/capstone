@@ -42,22 +42,28 @@ In order to approximate the stock market perforamce I collected data , using pyt
 - "QQQ", iShares Russell 2000 
 - "IWM", SPDR Dow Jones Industrial Average 
 
-I calculated the performace for each day by getting the (closing - opening) percentage
+I calculated the percentage performace for each day by getting the subtracting the closing price from the price opening and dividing by the opening price.
 
 # Performance of stock indices
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/each_index_change.png)
 
-afterwards, I averages the perforance for each day across all the indices
-
 # Aggregated average performance of stock indices
+I averaged the perforance for each day across all the indices
+
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/percent_change.png)
 
-I normalized the positive and negative tweets as a percentage , here is the final chart tracking the percentage change of the stocks market and the fraction of collected tweets that were negative or positive for a given day. I did an inner join on the date indices of each data set.
 
 # Results analysis
+
+I represented the positive and negative tweets as a percentage of total tweets.
+
+This chart contains the percentage performace the aggregate stock values and the percentage of collected tweets that were negative or positive for a given day. 
+
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/alllinestogether.png)
 
-The spearman correlation was calculared between the mean stock market performance and the percentange of positive tweets and the negative tweets.  
+I join on the date indices of each data set. The spearman correlation was calculared between the mean stock market performance and the percentange of positive tweets and the negative tweets. The spearman correlation was used since I am not assuming a linear relationship. The spearman correlation evaluates a monotonic relationship between two continuous variables. 
+
+In a monotonic relationship, the variables change together, but not necessarily in a linear fashion.  
 
 ### The results were `0.2972` and `-0.2917` respectively. 
 
