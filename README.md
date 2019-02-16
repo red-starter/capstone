@@ -36,6 +36,11 @@ source code is : https://github.com/sloria/TextBlob/blob/90cc87ab0f9e25f37379079
 ![alt text](https://github.com/red-starter/capstone/blob/master/graphs/better_chart.png)
 
 ## Collection of stockmarket data
+
+I used an aggregation of different indices to calculate average market performance. 
+
+```A market index is a hypothetical portfolio of investment holdings which represents a segment of the financial market. The calculation of the index value comes from the prices of the underlying holdings``` - https://www.investopedia.com/terms/m/marketindex.asp
+
 In order to approximate the stock market perforamce I collected data , using python datareader library on the following indices 
 - "SPY", iShares Core S&P 500 ETF 
 - "IVV", Vanguard Total Stock Market ETF 
