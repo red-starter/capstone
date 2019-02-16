@@ -3,16 +3,16 @@
 Stock market pricing has been an important area of research. The Efficient Market Hypothesis states that stocks are largely driven by factual information and rational actors. In this project, I will test a hypothesis based on behavioral economics. Which is that emotions of individuals affect overall decisons to buy stocks, so there should be a correlation between public sentiment and market performance. I use the sentiment of tweets as a proxy for public sentiment. 
 
 Null hypothesis 1
-- the # of positive tweets on a given day is not correlated to stock market performance
+- the fraction of positive tweets on a given day is not correlated to stock market performance
 
 Alternative Hypothesis 1
-- the # of positive tweets on a given day is positively correlated to stock market performance
+- the fraction of positive tweets on a given day is positively correlated to stock market performance
 
 Null hypothesis 2
-- the # of negative tweets on a given day is not correlated to stock market performance 
+- the fraction of negative tweets on a given day is not correlated to stock market performance 
 
 Alternative Hypothesis 2
-- the # of negative tweets on any given day is negatively correlated to stock market performance
+- the fraction of negative tweets on any given day is negatively correlated to stock market performance
 
 ## Collection and cleaning and analysis of tweets
 
